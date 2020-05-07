@@ -12,6 +12,7 @@
 3. 请为每一个 Issue/Task 创建单独的 Branch ，且每个 Branch 原则上都应基于最新的 upstream/master 分支创建（您自己仓库的 master 分支将不会被用到）。
 4. 当您在自己的 Branch 上完成工作后，请向本仓库创建一个 Pull Request 。
 5. 经过 Team 成员的相互 Review 后，您的工作将被合并。
+6. 如果您是一位 Git 新手，建议使用 [Github Desktop](https://desktop.github.com/) 进行上述操作，或在 VSCode 中使用 GitLens 等插件。
 
 ## Project setup
 ```
