@@ -174,6 +174,7 @@ export default {
     .bookImg{
       display: block;
       width: 100%;
+      box-shadow: 4px 4px 10px #ccc;
     }
     .zan{
       width: 60%;
