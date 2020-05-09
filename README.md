@@ -1,5 +1,16 @@
 # web
 
+## 开发进度
+1. 首页（完善中)
+2. 书籍信息（开发完成）  
+3. 阅读界面（开发完成_功能待完善）
+4. 登陆注册（开发中）
+5. 宇宙观展示（开发中）
+6. 宇宙详细（开发完成_功能待完善）
+7. 书籍目录（开发中）
+
+# web
+
 ## 开发流程
 
 1. 所有 Web Team 成员对本仓库仅有 Read 权限；开发前，请先 Fork 本仓库。
@@ -36,3 +47,19 @@ yarn lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+
+
+# icon图标
+
+## 仓库文件../src/fonts/font/demo_index.html
+
+1.打开就可以看到使用方法
+2.第三个选项是icon变色
+
+
+
+# js
+
+不用引用，可直接写。
+
