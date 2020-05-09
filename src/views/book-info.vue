@@ -56,6 +56,7 @@
 import {Row, Col} from 'view-design'
 
 export default {
+  name: 'book-info',
   components: {
       Row,
       Col

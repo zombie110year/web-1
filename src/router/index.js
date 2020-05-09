@@ -1,10 +1,9 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import HelloWorld from '@/components/HelloWorld'
-import sec from '@/components/sec'
 import BookReader from "../views/book-reader/book-reader.vue";
-import bookInfo from '@/components/bookInfo'
-import universeList from '@/components/universeList'
+import BookInfo from '@/views/book-info.vue'
+import UniverseList from '@/views/universe-list.vue'
+import Home from '@/views/home.vue'
 
 Vue.use(Router)
 
@@ -14,14 +13,9 @@ export default new Router({
             path: '/',
         },
         {
-            path: '/sec',
-            name: 'sec',
-            component: sec
-        },
-        {
-            path: '/hollow',
-            name: 'HelloWorld',
-            component: HelloWorld
+            path: '/home',
+            name: 'home',
+            component: Home
         },
         {
             path: "/book-reader",
@@ -29,14 +23,14 @@ export default new Router({
             component: BookReader
         },
         {
-            path: '/bookInfo',
-            name: 'bookInfo',
-            component: bookInfo
+            path: '/book-info',
+            name: 'book-info',
+            component: BookInfo
         },
         {
-            path: '/universeList',
-            name: 'universeList',
-            component: universeList
+            path: '/universe-list',
+            name: 'universe-list',
+            component: UniverseList
         }
     ]
 })

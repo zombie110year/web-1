@@ -368,6 +368,7 @@
 <script>
 import { Row, Col, Input, Select, Option } from 'view-design';
 export default {
+    name: 'universe-list',
     data () {
         return {
             value11: '',

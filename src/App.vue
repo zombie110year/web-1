@@ -3,9 +3,9 @@
     <Row class="nav">
         <Col span="20">
           <Row type="flex" justify="center" >
-            <Col span="3"><router-link to="/hollow" class="active">大说</router-link></Col>
-            <Col span="3"><router-link to="/hollow">宇宙</router-link></Col>
-            <Col span="3"><router-link to="/hollow">作者</router-link></Col>
+            <Col span="3"><router-link to="/home">大说</router-link></Col>
+            <Col span="3"><router-link to="/universe-list">宇宙</router-link></Col>
+            <Col span="3"><router-link to="/book-reader">作者</router-link></Col>
           </Row>
         </Col>
         <Col span="4"><router-link to="/hollow" class="">登录/注册</router-link></Col>
