@@ -1,14 +1,12 @@
 <template>
   <div id="app">
-    <span class="iconfont">&#xe785;</span>
-    <router-view></router-view>
+    <router-link to="/hollow">hollow</router-link>
   </div>
 </template>
 
 <script>
 
 export default {
-  name: 'App',
   components: {
   },
   mounted(){
