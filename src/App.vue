@@ -26,7 +26,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="scss">
   #app{
     margin-top: 40px;
   }
@@ -34,15 +34,15 @@ export default {
     font-size: 20px;
     font-weight: bold;
     color: #000;
-  }
-  .nav a{
-    color: #000;
-    padding-bottom: 6px;
-  }
-  .nav a.active{
-    border-bottom: 4px solid #000;
-  }
-  .nav a:hover{
-    border-bottom: 4px solid #000;
+    a{
+      color: #000;
+      padding-bottom: 6px;
+    }
+    a.active{
+      border-bottom: 4px solid #000;
+    }
+    a:hover{
+      border-bottom: 4px solid #000;
+    }
   }
 </style>
