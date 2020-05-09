@@ -1,8 +1,8 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import App from '@/App'
 import HelloWorld from '@/components/HelloWorld'
 import sec from '@/components/sec'
+import bookInfo from '@/components/bookInfo'
 
 Vue.use(Router)
 
@@ -11,8 +11,6 @@ export default new Router({
     routes: [
         {
             path: '/',
-            name: 'App',
-            component: App
         },
         {
             path: '/sec',
@@ -23,6 +21,11 @@ export default new Router({
             path: '/hollow',
             name: 'HelloWorld',
             component: HelloWorld
+        },
+        {
+            path: '/bookInfo',
+            name: 'bookInfo',
+            component: bookInfo
         }
     ]
 })
