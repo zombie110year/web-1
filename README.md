@@ -36,3 +36,19 @@ yarn lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+
+
+# icon图标
+
+## 仓库文件../src/fonts/font/demo_index.html
+
+1.打开就可以看到使用方法
+2.第三个选项是icon变色
+
+
+
+# js
+
+不用引用，可直接写。
+
