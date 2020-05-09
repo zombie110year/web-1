@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import HelloWorld from '@/components/HelloWorld'
 import sec from '@/components/sec'
 import bookInfo from '@/components/bookInfo'
+import universeList from '@/components/universeList'
 
 Vue.use(Router)
 
@@ -26,6 +27,11 @@ export default new Router({
             path: '/bookInfo',
             name: 'bookInfo',
             component: bookInfo
+        },
+        {
+            path: '/universeList',
+            name: 'universeList',
+            component: universeList
         }
     ]
 })
