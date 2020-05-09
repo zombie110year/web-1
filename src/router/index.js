@@ -3,13 +3,13 @@ import Router from 'vue-router'
 import App from '@/App'
 import HelloWorld from '@/components/HelloWorld'
 import sec from '@/components/sec'
+import BookReader from "../views/book-reader/book-reader.vue";
 
 Vue.use(Router)
 
 export default new Router({
     mode: 'history',
-    routes: [
-        {
+    routes: [{
             path: '/',
             name: 'App',
             component: App
@@ -23,6 +23,11 @@ export default new Router({
             path: '/hollow',
             name: 'HelloWorld',
             component: HelloWorld
+        },
+        {
+            path: "/book-reader",
+            name: "book-reader",
+            component: BookReader
         }
     ]
 })
